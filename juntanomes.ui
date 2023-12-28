@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Janela</class>
+ <widget class="QMainWindow" name="Janela">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>360</width>
+    <height>240</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>200</width>
+    <height>100</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>800</width>
+    <height>500</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Junta Nomes 1.0</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../Users/1578240/Downloads/lapis.png</normaloff>../Users/1578240/Downloads/lapis.png</iconset>
+  </property>
+  <property name="windowOpacity">
+   <double>0.950000000000000</double>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="label_nome">
+      <property name="text">
+       <string>Nome:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineEdit_nome"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_sobrenome">
+      <property name="text">
+       <string>Sobrenome:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineEdit_sobrenome"/>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_juntar">
+      <property name="text">
+       <string>JUNTAR</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_completo">
+      <property name="text">
+       <string>Nome Completo:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineEdit_completo"/>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_limpar">
+      <property name="text">
+       <string>LIMPAR</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
